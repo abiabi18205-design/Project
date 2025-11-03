@@ -20,14 +20,14 @@ body {
 
 }
 .static-nav-link {
-    color: var(--bs-light) !important;
+    color: black;
     padding: 0;
     border-bottom: 2px solid transparent;
     font-weight: 500;
     transition: color 0.3s;
 }
 .static-nav-link:hover {
-    color: var(--bs-warning) !important;
+    color: black;
 }
 
 .text-3xl { font-size: 1.75rem; }
