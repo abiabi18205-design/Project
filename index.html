@@ -6,14 +6,18 @@
     <title>☕COFFEE LIFE</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" xintegrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@200..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 </head>
 <body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
     <!-- Main Navigation Bar  -->
     <header class="sticky-top bg-dark shadow-lg">
          <nav class="navbar navbar-expand-lg navbar-dark ">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">☕ COFFEE LIFE</a>
+    <a class="navbar-brand"href="#">☕ COFFEE LIFE</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -21,6 +25,9 @@
       <ul class="navbar-nav m-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#home-section">HOME</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#home-section">ABOUT</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" href="#menu-section">MENU</a>
@@ -44,24 +51,31 @@
 
         <!-- HOME SECTION -->
         <section id="home-section" class="mb-5 py-5">
-            <h2 class="display-5 fw-bold text-center mb-5 text-warning">Welcome to our coffee life</h2>
+            <!-- <h2 class="display-5 fw-bold text-center mb-5 text-dark">Welcome to our coffee life</h2> -->
             <!-- Hero Section -->
             <div class="card-bg rounded-4 p-4 p-md-5 mb-5 d-flex flex-column flex-md-row align-items-center">
               
-                <div class="col-md-6 pe-md-5 text-center text-md-start">
+                <div class="col-md-6 pe-md-6 text-center text-md-start">
+
+                    <h1 class="display-5 text-center start-50 fw-bold">welcome to our coffee life</h1>
+
                     <p class="fs-5 text-warning mb-2 fw-semibold">Discover Our zone</p>
                     <h2 class="display-3 fw-bolder mb-3 lh-1">
-                        Experience <span class="text-warning">Premium</span> Quality
+                        TIME TO <span class="text-warning">DISCOVER </span> COFFEE house
                     </h2>
+                    <h5 class="text-white mb-4 fs-4">EAT. DRINK. MEET. THINK</h5>
                     <p class="text-white mb-4 fs-5">
-                        Hand-crafted coffee and artisanal pastries, brewed for your perfect moment.
+                        The coffee is brawed by first roasting the green coffee beans over hot coals in a brazier. given an opportunity to sample.
                     </p>
                     <a href="#menu-section" class="btn btn-warning fw-bold px-5 py-3 rounded-pill shadow-lg">
-                        Explore Our Menu
+                        TESTY COFFEE
+                    </a>
+                    <a href="#menu-section" class="btn btn-warning fw-bold px-5 py-3 rounded-pill shadow-lg">
+                        LEARN MORE
                     </a>
                 </div>
                 <!-- Placeholder Image Fallback -->
-                <div class="col-md-6 mt-4 mt-md-0">
+                <div class="col-md-6 mt-5 mt-md-0">
                     <img src="./image/view-coffee-cups.jpg" alt="coffee image" class="img-fluid rounded-4 border border-4 border-warning border-opacity-50">
                 </div>
             </div>
@@ -72,7 +86,7 @@
                     <div class="card-bg p-4 rounded-3">
                          <img src="./image/Gemini_Generated_Image_jpjcjtjpjcjtjpjc-01.jpeg" alt="coffee image" class="img-fluid rounded-4 border border-4 border-warning border-opacity-50">
                         <h3 class="h5 fw-semibold mb-2 text-warning">Mocha</h3>
-                        <p class="text-secondary">A mocha is a Latte with a shot of chocolate, making it a coffee twist on hot chocolate.</p>
+                        <p class="text-secondary">A mocha is a Latte with a shot of chocolate, making it a coffee twist on hot chocolate. We take pride in using high quality beans. </p>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -128,20 +142,20 @@
                         <h3 class="h3 fw-semibold mb-4 text-warning border-bottom pb-3 border-secondary border-opacity-50">Coffee & Espresso</h3>
                         <div id="coffee-list" class="d-grid gap-4">
                             <div class="d-flex justify-content-between align-items-start pb-2 border-bottom border-secondary border-opacity-25">
-                                <div><p class="fs-5 fw-semibold mb-0">Stellar Espresso</p><p class="text-secondary small mb-0">Rich, bold shot of our house blend.</p></div>
-                                <span class="fs-5 fw-bold text-warning">$3.00</span>
+                                <div><p class="fs-5 fw-semibold mb-0">Mocha</p><p class="text-secondary small mb-0">Mocha, bold shot of our house blend.</p></div>
+                                <span class="fs-5 fw-bold text-warning">LKR 500.00</span>
                             </div>
                             <div class="d-flex justify-content-between align-items-start pb-2 border-bottom border-secondary border-opacity-25">
-                                <div><p class="fs-5 fw-semibold mb-0">Moonbeam Latte</p><p class="text-secondary small mb-0">Silky steamed milk with a shot of espresso.</p></div>
-                                <span class="fs-5 fw-bold text-warning">$5.50</span>
+                                <div><p class="fs-5 fw-semibold mb-0">Espresso</p><p class="text-secondary small mb-0">Silky steamed milk with a shot of espresso.</p></div>
+                                <span class="fs-5 fw-bold text-warning">LKR 600.00</span>
                             </div>
                             <div class="d-flex justify-content-between align-items-start pb-2 border-bottom border-secondary border-opacity-25">
-                                <div><p class="fs-5 fw-semibold mb-0">Cosmic Pour Over</p><p class="text-secondary small mb-0">Single origin beans, hand-brewed to perfection.</p></div>
-                                <span class="fs-5 fw-bold text-warning">$6.00</span>
+                                <div><p class="fs-5 fw-semibold mb-0">Cappuccino</p><p class="text-secondary small mb-0">Single origin beans, hand-brewed to perfection.</p></div>
+                                <span class="fs-5 fw-bold text-warning">LKR 750.00</span>
                             </div>
                             <div class="d-flex justify-content-between align-items-start pb-2 border-bottom border-secondary border-opacity-25">
-                                <div><p class="fs-5 fw-semibold mb-0">Nebula Cold Brew</p><p class="text-secondary small mb-0">24-hour steeped, extra smooth and strong.</p></div>
-                                <span class="fs-5 fw-bold text-warning">$5.00</span>
+                                <div><p class="fs-5 fw-semibold mb-0">Flat white</p><p class="text-secondary small mb-0">24-hour steeped, extra smooth and strong.</p></div>
+                                <span class="fs-5 fw-bold text-warning">LKR 850.00</span>
                             </div>
                         </div>
                     </div>
@@ -153,20 +167,28 @@
                         <h3 class="h3 fw-semibold mb-4 text-warning border-bottom pb-3 border-secondary border-opacity-50">Pastries & Treats</h3>
                         <div id="pastry-list" class="d-grid gap-4">
                             <div class="d-flex justify-content-between align-items-start pb-2 border-bottom border-secondary border-opacity-25">
-                                <div><p class="fs-5 fw-semibold mb-0">Butter Croissant</p><p class="text-secondary small mb-0">Flaky, buttery perfection.</p></div>
-                                <span class="fs-5 fw-bold text-warning">$4.00</span>
+                                <div><p class="fs-5 fw-semibold mb-0">Tea Bun</p></div>
+                                <span class="fs-5 fw-bold text-warning">LKR 70.00</span>
                             </div>
                             <div class="d-flex justify-content-between align-items-start pb-2 border-bottom border-secondary border-opacity-25">
-                                <div><p class="fs-5 fw-semibold mb-0">Blueberry Scone</p><p class="text-secondary small mb-0">Moist scone with a hint of lemon zest.</p></div>
-                                <span class="fs-5 fw-bold text-warning">$4.50</span>
+                                <div><p class="fs-5 fw-semibold mb-0">Dot Bun</p></div>
+                                <span class="fs-5 fw-bold text-warning">LKR 80.50</span>
                             </div>
                             <div class="d-flex justify-content-between align-items-start pb-2 border-bottom border-secondary border-opacity-25">
-                                <div><p class="fs-5 fw-semibold mb-0">Galactic Cinnamon Roll</p><p class="text-secondary small mb-0">Giant roll with cream cheese frosting.</p></div>
-                                <span class="fs-5 fw-bold text-warning">$6.50</span>
+                                <div><p class="fs-5 fw-semibold mb-0">Kombu Bun</p></div>
+                                <span class="fs-5 fw-bold text-warning">LKR 70.00</span>
                             </div>
                             <div class="d-flex justify-content-between align-items-start pb-2 border-bottom border-secondary border-opacity-25">
-                                <div><p class="fs-5 fw-semibold mb-0">Artisan Bagel & Cream Cheese</p><p class="text-secondary small mb-0">Toasted everything or plain bagel.</p></div>
-                                <span class="fs-5 fw-bold text-warning">$5.00</span>
+                                <div><p class="fs-5 fw-semibold mb-0">Hot Dog Jumbo</p></div>
+                                <span class="fs-5 fw-bold text-warning">LKR 300.00</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-start pb-2 border-bottom border-secondary border-opacity-25">
+                                <div><p class="fs-5 fw-semibold mb-0">Veggie Curry Bun</p></div>
+                                <span class="fs-5 fw-bold text-warning">LKR 1000.00</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-start pb-2 border-bottom border-secondary border-opacity-25">
+                                <div><p class="fs-5 fw-semibold mb-0">Egg Fry Bun</p></div>
+                                <span class="fs-5 fw-bold text-warning">LKR 250.00</span>
                             </div>
                         </div>
                     </div>
@@ -206,7 +228,7 @@
                         </div>
                         <!-- Map Placeholder -->
                         <div class="h-48 w-100 card-bg border border-secondary border-opacity-25 d-flex align-items-center justify-content-center rounded-3 mt-4" style="height: 12rem;">
-                            <p class="text-secondary fst-italic mb-0">Map Placeholder</p>
+                            <p class="text-secondary fst-italic mb-0"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62930.07568962199!2d79.98722657389611!3d9.66995509716794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afe53fd7be66aa5%3A0xc7da0d9203baf512!2sJaffna!5e0!3m2!1sen!2slk!4v1762128573683!5m2!1sen!2slk" width="500" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
                         </div>
                     </div>
                 </div>
@@ -243,7 +265,7 @@
     </main>
 
     <!-- Footer -->
-    <footer class="mt-auto bg-dark border-top border-secondary border-opacity-50 p-3 text-center text-secondary">
+    <footer class="mt-auto bg-dark border-top border-secondary fixed-bottom border-opacity-50 p-3 text-center text-secondary">
         <p class="mb-0">&copy; 2025 Coffee Life| Brewed with <span class="text-danger">&hearts;</span></p>
     </footer>
 

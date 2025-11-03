@@ -12,6 +12,13 @@ body {
 .navbar{
     background-color: #3B060A;
 }
+.navbar-brand{
+    font-family: "Lobster", sans-serif;
+}
+#home-section h1{
+    font-family: "Rubik", sans-serif;
+
+}
 .static-nav-link {
     color: var(--bs-light) !important;
     padding: 0;
